@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <header class="container header">
+        <h1>
+            Saga Fast and Furious
+        </h1>
+        <nav>
+            <ul class="list-nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <h2 class="title-main">
+            Autos conducidos en la saga por Brian O'Conner
+        </h2>
+        <div id="carouselFast" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6KPZLV8G3ttLvLe1WEr4CISfWT9sDsAdoKw&s" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScY94ZptnU4aLeEELR6aswP9DORHOl8txg8g&s" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK0XGL_iLv_bPawqVFHDL_iq7oLMDPduhfoQ&s" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFast" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFast" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="accordion" id="accordionCars" data-bs-theme="dark">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Skyline GT-R
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionCars">
+                <div class="accordion-body">
+                    The 10th generation <strong>Skyline R34</strong> was rolled out in 1998. The body had high rigidity to improve motion performance while securing enough interior space in a smaller body. Its highest-level performance model "GT-R" was released in 1999                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Mitsubishi Elipse
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionCars">
+                <div class="accordion-body">
+                    The <strong>Mitsubishi Eclipse</strong> isn't just a staple of the automotive world. It's also an icon of pop culture. The 1995 Mitsubishi Eclipse had a feature in the introductory Fast & Furious film, which is perhaps one of the most illustrious automotive movie franchises ever to exist. Seeing as this model's estimated top speed is 136.7 mph, it's no wonder it was given a role in the high-speed action film. It had the honorable role of being O'Connor's very first race car, but we won't spoil the movie any further.                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Toyota Supra
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionCars">
+                <div class="accordion-body">
+                    <strong>Toyota Supra</strong> GF-JZA80 released in August 1999 comes in Rz-s variant with 2,997 cc engine and Manual transmission. This model comes in Coupe body type equipped with 2JZ-GTE engine model that run on Premium Gasoline . Supra GF-JZA80 weights 1,490 kg with 3 doors and 4 seats having a complete volumne of 10.431 m3                </div>
+              </div>
+            </div>
+          </div>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p class="footer-text">
+            &#169; Designed by Ing. Luis Gael Gallegos Estrada
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
