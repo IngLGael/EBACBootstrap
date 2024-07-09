@@ -53,6 +53,19 @@ hr{
     color: #fff;
 }
 
+.sagaHeader {
+    justify-content: space-between;
+}
+
+.card{
+    width: 100%;
+    margin: 4rem auto;
+}
+
+.card-body h5, .card-body p{
+    text-align: center;
+}
+
 @media (hover:hover){
 
     .list-nav li a:hover{
